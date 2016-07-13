@@ -1,0 +1,11 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+${ "Gracias por registrarte en FormaX ! Para Activar "
+" tu cuenta, por favor da clic en el siguiente link: "}
+
+% if is_secure:
+  https://${ site }/activate/${ key }
+% else:
+  http://${ site }/activate/${ key }
+% endif
+
