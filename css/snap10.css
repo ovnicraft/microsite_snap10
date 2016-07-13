@@ -25,7 +25,7 @@
 }
 
 .home > header .media .hero {
-    background: url("http://formax.edu.ec/c4x/CECEP/CNE01v03/asset/video2.jpg") no-repeat scroll center center / cover transparent;
+    background: url("../images/video2.jpg") no-repeat scroll center center / cover transparent;
 }
 
 .view-login .introduction header {
