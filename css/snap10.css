@@ -4,11 +4,11 @@
     background: none repeat scroll 0% 0% rgb(242, 242, 242);
 }
 .lineabanner {
-	     background-color: #fdca30;
-	     height: 8px;
-	     width: 100%;
-	     margin:0%;
-	     padding:0%;
+	background-color: #fdca30;
+	height: 8px;
+	width: 100%;
+	margin:0%;
+	padding:0%;
 }
 .home > header .media {
     background: none repeat scroll 0% 0% rgba(57, 203, 211,0);
@@ -25,7 +25,7 @@
 }
 
 .home > header .media .hero {
-    background: url("../images/video2.jpg") no-repeat scroll center center / cover transparent;
+     background: url("../images/video2.jpg") no-repeat scroll center center / cover transparent;
 }
 
 .view-login .introduction header {
@@ -37,13 +37,13 @@
 }
 
 header.global {
-	      background: #ffffff; /*Encabezado*/
-#	      border-bottom: 8px solid #ffffff;
+	background: #ffffff; /*Encabezado*/
+/*#	border-bottom: 8px solid #ffffff;*/
 
 }
 .home header {
-      	     background-image: url("../images/banner2.jpg"); /*Imagen banner*/
-	     		       height: 700px;
+		background-image: url("../images/banner2.jpg"); /*Imagen banner*/
+		height: 600px;
 }
 
 header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
@@ -57,24 +57,24 @@ header.global .nav-courseware li .cta:hover, header.global .nav-courseware div .
 
 header.global .nav-global li a, header.global .nav-global div a {
     color: #2ba5dd;
-    float: right;
+	float: right;
 }
 
 #content {
-	 background-image: url("../images/tileset.png");
-	 background-repeat: no-repeat;  /* Se cambio para que la imagen cubra todo el catalogo*/
-	 background-size: cover; /* Se cambio para que la imagen cubra todo el catalogo*/
+	background-image: url("../images/tileset.png");
+	background-repeat: repeat;  /* Se cambio para que la imagen cubra todo el catalogo*/
+	/*background-size: cover; Se cambio para que la imagen cubra todo el catalogo*/
 }
 
 .container {
 
-	   max-width: 100%;
+	max-width: 100%;
 }
 
 login .content, .register .content, .passwordreset .content, #forgot-password-modal #password-reset .content {
     float: left;
     margin-right: 40px;
-    		  width: 600px;
+		width: 600px;
 }
 
 .view-register .introduction, .view-login .introduction, .view-passwordreset .introduction {
@@ -89,7 +89,7 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 
 .container {
     min-width: 700px;
-    	           border-bottom: 8px solid #1375aa;
+		    border-bottom: 8px solid #1375aa;
 }
 
 .login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-survey .action-primary, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
@@ -103,160 +103,160 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 }
 /* Icon */
 
-   .icon {
-   	 position: relative;
-	 }
+	.icon {
+		position: relative;
+	}
 
 		.icon:before {
-				-moz-osx-font-smoothing: grayscale;
-								-webkit-font-smoothing: antialiased;
-												font-family: FontAwesome;
-														font-style: normal;
-															     font-weight: normal;
-															     		   text-transform: none !important;
-																	   		   }
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
 
-																			    .icon.circle {
-																			    		  -moz-transition: all 0.2s ease-in-out;
-																					  		       -webkit-transition: all 0.2s ease-in-out;
-																							       			       -o-transition: all 0.2s ease-in-out;
-																										       		      	  -ms-transition: all 0.2s ease-in-out;
-																													  		      transition: all 0.2s ease-in-out;
-																															      		      border: 0;
-																																	      	       border-radius: 100%;
-																																		       		       display: inline-block;
-																																				       		 font-size: 1.25em;
-																																						 	     height: 2.25em;
-																																							     	      left: 0;
-																																								      	     line-height: 2.25em;
-																																									     		   text-align: center;
-																																											   	        text-decoration: none;
-																																															  top: 0;
-																																															        width: 2.25em;
-																																																       }
+		.icon.circle {
+			-moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			border-radius: 100%;
+			display: inline-block;
+			font-size: 1.25em;
+			height: 2.25em;
+			left: 0;
+			line-height: 2.25em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2.25em;
+		}
 
-																																																         .icon.circle:hover {
-																																																	 		      top: -0.2em;
-																																																			      	    }
+			.icon.circle:hover {
+				top: -0.2em;
+			}
 
-																																																				      .icon.circle.fa-twitter {
-																																																				      			        background: #70aecd;
-																																																									      color: white;
-																																																									      	      }
+			.icon.circle.fa-twitter {
+				background: #70aecd;
+				color: white;
+			}
 
-																																																										         .icon.circle.fa-twitter:hover {
-																																																											 			          background: #7fb7d2;
-																																																															  	        }
+				.icon.circle.fa-twitter:hover {
+					background: #7fb7d2;
+				}
 
-																																																																	  .icon.circle.fa-facebook {
-																																																																	  			     background: #7490c3;
-																																																																				     		   color: white;
-																																																																						   	   }
+			.icon.circle.fa-facebook {
+				background: #7490c3;
+				color: white;
+			}
 
-																																																																							      .icon.circle.fa-facebook:hover {
-																																																																							      				        background: #829bc9;
-																																																																													      }
+				.icon.circle.fa-facebook:hover {
+					background: #829bc9;
+				}
 
-																																																																													        .icon.circle.fa-google-plus {
-																																																																																	      background: #db6b67;
-																																																																																	      		    color: white;
-																																																																																			    	    }
+			.icon.circle.fa-google-plus {
+				background: #db6b67;
+				color: white;
+			}
 
-																																																																																				       .icon.circle.fa-google-plus:hover {
-																																																																																				       					    background: #df7b77;
-																																																																																									    		  }
+				.icon.circle.fa-google-plus:hover {
+					background: #df7b77;
+				}
 
-																																																																																											    .icon.circle.fa-github {
-																																																																																											    			     background: #dcad8b;
-																																																																																														     		   color: white;
-																																																																																																   	   }
+			.icon.circle.fa-github {
+				background: #dcad8b;
+				color: white;
+			}
 
-																																																																																																	      .icon.circle.fa-github:hover {
-																																																																																																	      				      background: #e1b89b;
-																																																																																																					      		    }
+				.icon.circle.fa-github:hover {
+					background: #e1b89b;
+				}
 
-																																																																																																							      .icon.circle.fa-dribbble {
-																																																																																																							      			         background: #da83ae;
-																																																																																																											 	       color: white;
-																																																																																																												       	       }
+			.icon.circle.fa-dribbble {
+				background: #da83ae;
+				color: white;
+			}
 
-																																																																																																													          .icon.circle.fa-dribbble:hover {
-																																																																																																														  				    background: #df93b8;
-																																																																																																																		    		  }
+				.icon.circle.fa-dribbble:hover {
+					background: #df93b8;
+				}
 
-																																																																																																																				   .icon.featured {
-																																																																																																																				   		   cursor: default;
-																																																																																																																						   	    display: block;
-																																																																																																																							    	      margin: 0 0 1.5em 0;
-																																																																																																																								      	      	opacity: 0.35;
-																																																																																																																											  text-align: center;
-																																																																																																																											  	      }
+		.icon.featured {
+			cursor: default;
+			display: block;
+			margin: 0 0 1.5em 0;
+			opacity: 0.35;
+			text-align: center;
+		}
 
-																																																																																																																												        .icon.featured:before {
-																																																																																																																															        font-size: 5em;
-																																																																																																																																	     line-height: 1em;
-																																																																																																																																	     		   }
+			.icon.featured:before {
+				font-size: 5em;
+				line-height: 1em;
+			}
 
-																																																																																																																																			    .icon > .label {
-																																																																																																																																			    	    display: none;
-																																																																																																																																				    	     }
+		.icon > .label {
+			display: none;
+		}
 
-																																																																																																																																					      /* Wrapper */
+		/* Wrapper */
 
-																																																																																																																																					      	 	 .wrapper {
-																																																																																																																																							 	    padding: 0em;
-																																																																																																																																								    	       background: #D1D2D4;
+			.wrapper {
+				padding: 0em;
+				background: #D1D2D4;
 
-																																																																																																																																									       		    }
+			}
 
-																																																																																																																																											       .wrapper.style1 {
-																																																																																																																																											       		          padding: 0;
-																																																																																																																																														  	     }
+				.wrapper.style1 {
+					padding: 0;
+				}
 
-																																																																																																																																															        .wrapper.style2 {
-																																																																																																																																																		   background-color: #149494;
-																																																																																																																																																		   		        background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-																																																																																																																																																							  			        background-position: bottom left, bottom right;
-																																																																																																																																																													     	    	  	 background-repeat: no-repeat, no-repeat;
-																																																																																																																																																																 		    	         background-size: 25em, 25em;
-																																																																																																																																																																				 		  	  color: white;
-																																																																																																																																																																							  	   }
+				.wrapper.style2 {
+					background-color: #149494;
+					background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+					background-position: bottom left, bottom right;
+					background-repeat: no-repeat, no-repeat;
+					background-size: 25em, 25em;
+					color: white;
+				}
 
-																																																																																																																																																																								       .wrapper.style2 .button:hover {
-																																																																																																																																																																								       		       		        background: rgba(255, 255, 255, 0.15) !important;
-																																																																																																																																																																														    	      	   	}
+					.wrapper.style2 .button:hover {
+						background: rgba(255, 255, 255, 0.15) !important;
+					}
 
-																																																																																																																																																																																	    .wrapper.style2 .button.special {
-																																																																																																																																																																																	    		    		       background: white;
-																																																																																																																																																																																					       		       border-color: white;
-																																																																																																																																																																																							       		         color: #83d3c9 !important;
-																																																																																																																																																																																										 		  }
+					.wrapper.style2 .button.special {
+						background: white;
+						border-color: white;
+						color: #83d3c9 !important;
+					}
 
-																																																																																																																																																																																												       .wrapper.style2 .button.special:hover {
-																																																																																																																																																																																												       		       			         border-color: inherit !important;
-																																																																																																																																																																																																		 	       	           color: white !important;
-																																																																																																																																																																																																					   	  	   }
+						.wrapper.style2 .button.special:hover {
+							border-color: inherit !important;
+							color: white !important;
+						}
 
-																																																																																																																																																																																																							      .wrapper.style3 {
-																																																																																																																																																																																																							      		         background: white;
-																																																																																																																																																																																																										 	        color: inherit;
-																																																																																																																																																																																																												         }
+				.wrapper.style3 {
+					background: white;
+					color: inherit;
+				}
 
-																																																																																																																																																																																																													    .wrapper.style4 {
-																																																																																																																																																																																																													    		       background: white;
-																																																																																																																																																																																																															       		      color: inherit;
-																																																																																																																																																																																																																	      	        padding: 4em;
-																																																																																																																																																																																																																				   }
-																																																																																																																																																																																																																				      .wrapper-footer footer {
-																																																																																																																																																																																																																				      		      	          box-sizing: border-box;
-																																																																																																																																																																																																																								  	            max-width: 100%;
-																																																																																																																																																																																																																										    	             min-width: 760px;
-																																																																																																																																																																																																																												     		      width: 100%;
-																																																																																																																																																																																																																														      	           margin: 0px auto;
-																																																																																																																																																																																																																																   	            text-align: center;
-																																																																																																																																																																																																																																		    		   background-color: #2ba5dd;
-																																																																																																																																																																																																																																				   		        
-																																																																																																																																																																																																																																							   }
+				.wrapper.style4 {
+					background: white;
+					color: inherit;
+					padding: 4em;
+				}
+				.wrapper-footer footer {
+				    box-sizing: border-box;
+				    max-width: 100%;
+				    min-width: 760px;
+				    width: 100%;
+				    margin: 0px auto;
+				    text-align: center;
+					background-color: #2ba5dd;
+
+				}
 
         .inline_second {
           display: inline-block;
@@ -279,85 +279,85 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 
 				}
 
-							/* List */
+				/* List */
 
-										ol.default {
-															list-style: decimal;
-																        padding-left: 1.25em;
-																		         }
+					ol.default {
+						list-style: decimal;
+						padding-left: 1.25em;
+					}
 
-																			      ol.default li {
-																			      		        padding-left: 0.25em;
-																							          }
+						ol.default li {
+							padding-left: 0.25em;
+						}
 
-																								      ul.default {
-																								      		     list-style: disc;
-																										     		     padding-left: 1em;
-																												     		      }
+					ul.default {
+						list-style: disc;
+						padding-left: 1em;
+					}
 
-																														           ul.default li {
-																															   	      	     padding-left: 0.5em;
-																																	     		       }
+						ul.default li {
+							padding-left: 0.5em;
+						}
 
-																																			           ul.icons {
-																																				   	        cursor: default;
-																																							   }
+					ul.icons {
+						cursor: default;
+					}
 
-																																							        ul.icons li {
-																																									        display: inline-block;
-																																											      line-height: 1em;
-																																											      		        padding-left: 0.5em;
-																																															          }
+						ul.icons li {
+							display: inline-block;
+							line-height: 1em;
+							padding-left: 0.5em;
+						}
 
-																																																        ul.icons li:first-child {
-																																																		 		     padding-left: 0;
-																																																				     		        }
+							ul.icons li:first-child {
+								padding-left: 0;
+							}
 
-																																																							    ul.featured-icons {
-																																																							    		          cursor: default;
-																																																										  	      margin: -0.75em 0 0 0;
-																																																											      	      	      	   opacity: 0.35;
-																																																														   	        overflow: hidden;
-																																																																	      position: relative;
-																																																																	      		   }
+					ul.featured-icons {
+						cursor: default;
+						margin: -0.75em 0 0 0;
+						opacity: 0.35;
+						overflow: hidden;
+						position: relative;
+					}
 
-																																																																			        ul.featured-icons li {
-																																																																						         display: block;
-																																																																							 	       float: left;
-																																																																								       	           text-align: center;
-																																																																										   	            width: 50%;
-																																																																												    	       }
+						ul.featured-icons li {
+							display: block;
+							float: left;
+							text-align: center;
+							width: 50%;
+						}
 
-																																																																													             ul.featured-icons li .icon {
-																																																																														     		       	  	    display: inline-block;
-																																																																																		    	           font-size: 6.25em;
-																																																																																				   	            height: 1.25em;
-																																																																																						    	          line-height: 1.25em;
-																																																																																								  	             width: 1em;
-																																																																																										     	         }
+							ul.featured-icons li .icon {
+								display: inline-block;
+								font-size: 6.25em;
+								height: 1.25em;
+								line-height: 1.25em;
+								width: 1em;
+							}
 
-																																																																																												     ul.buttons {
-																																																																																												     		    cursor: default;
-																																																																																														    	       }
+					ul.buttons {
+						cursor: default;
+					}
 
-																																																																																															            ul.buttons:last-child {
-																																																																																																    			       margin-bottom: 0;
-																																																																																																			       		          }
+						ul.buttons:last-child {
+							margin-bottom: 0;
+						}
 
-																																																																																																						       ul.buttons li {
-																																																																																																						       		         display: inline-block;
-																																																																																																									 	       padding: 0 0 0 1.5em;
-																																																																																																										       		       }
+						ul.buttons li {
+							display: inline-block;
+							padding: 0 0 0 1.5em;
+						}
 
-																																																																																																												             ul.buttons li:first-child {
-																																																																																																													     			            padding: 0;
-																																																																																																																	    	          }
+							ul.buttons li:first-child {
+								padding: 0;
+							}
 
-																																																																																																																			       ul.buttons.vertical li {
-																																																																																																																			       			          display: block;
-																																																																																																																							  	        padding: 1.5em 0 0 0;
-																																																																																																																										       	    }
+						ul.buttons.vertical li {
+							display: block;
+							padding: 1.5em 0 0 0;
+						}
 
-																																																																																																																											          ul.buttons.vertical li:first-child {
-																																																																																																																												  		      		          padding: 0;
-																																																																																																																																	  	        }
+							ul.buttons.vertical li:first-child {
+								padding: 0;
+							}
